@@ -8,7 +8,7 @@ const certifications = [
     date: "2025",
     // Change your PDF to a PNG/JPG first, then use this path:
     image: "/internship.png", 
-    link: "https://www.linkedin.com/posts/ritik-mahawar-b313a6282_certificate-of-completion-ugcPost-7401705703884697600-6_-z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETB3NUBkJUK6N8KylBSd9Vh_l8S4ZkTIeU",
+    link: "https://drive.google.com/file/d/12mRINSqvWwRR2ts2bvAtkjzj7f4pUcIL/view?usp=sharing",
   },
   {
     title: "Python for Data Science",
@@ -16,7 +16,7 @@ const certifications = [
     date: "2025",
     // Matches the "py.png" file seen in your public folder screenshot
     image: "/py.png", 
-    link: "https://www.linkedin.com/in/ritik-mahawar-b313a6282/", // Update with actual Coursera link if you have it
+    link: "https://drive.google.com/file/d/12Pgr1TZqQqJYGTniUJiJi9C__98MxqRi/view?usp=sharing", // Update with actual Coursera link if you have it
   },
 ];
 
