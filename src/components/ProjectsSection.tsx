@@ -55,7 +55,7 @@ const ProjectsSection = () => {
                 ))}
               </div>
               <div className="flex gap-3">
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://github.com/mahawarritik3-byte/newsletter_system" className="text-muted-foreground hover:text-primary transition-colors">
                   <Github size={18} />
                 </a>
                 <a href="https://newslettergo.ct.ws"className="text-muted-foreground hover:text-accent transition-colors">
