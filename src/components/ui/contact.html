@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-dark: #000000;
+            --card-bg: #111111;
+            --neon-pink: #ff40b4;
+            --neon-cyan: #40e0d0;
+            --text-gray: #a0a0a0;
+            --text-white: #ffffff;
+            --success-green: #2ecc71;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-white);
+            overflow-x: hidden;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .contact-section {
+            padding: 100px 20px;
+            display: flex;
+            justify-content: center;
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .contact-wrapper {
+            max-width: 1000px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 50px;
+        }
+
+        /* --- Social Sidebar --- */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .contact-info h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            color: var(--text-gray);
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .social-icon {
+            width: 45px;
+            height: 45px;
+            border: 1px solid #333;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-gray);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-icon:hover {
+            border-color: var(--neon-cyan);
+            color: var(--neon-cyan);
+            transform: translateY(-5px);
+            box-shadow: 0 0 10px rgba(64, 224, 208, 0.3);
+        }
+
+        /* --- Form --- */
+        .contact-form {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border: 1px solid #222;
+        }
+
+        .input-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        input, textarea {
+            background: #080808;
+            border: 1px solid #222;
+            border-radius: 10px;
+            padding: 15px;
+            color: white;
+            outline: none;
+            transition: 0.3s;
+            font-family: inherit;
+        }
+
+        input:focus, textarea:focus {
+            border-color: var(--neon-pink);
+            background: #0f0f0f;
+        }
+
+        .submit-btn {
+            background: var(--neon-pink);
+            color: white;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            cursor: pointer;
+            width: max-content;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-width: 180px;
+            justify-content: center;
+        }
+
+        .submit-btn:hover:not(:disabled) {
+            box-shadow: 0 0 20px rgba(255, 64, 180, 0.6);
+            transform: translateY(-2px);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* --- Loader Animation --- */
+        .loader {
+            width: 18px;
+            height: 18px;
+            border: 2px solid #ffffff;
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            animation: rotation 1s linear infinite;
+        }
+
+        @keyframes rotation {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* --- Success Message --- */
+        #my-form-status {
+            font-size: 1rem;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+        }
+
+        .status-success { color: var(--success-green); }
+        .status-error { color: #ff4d4d; }
+
+        /* Responsive */
+        @media (max-width: 850px) {
+            .contact-wrapper { grid-template-columns: 1fr; }
+            .contact-info { text-align: center; align-items: center; }
+            .input-group { grid-template-columns: 1fr; }
+            .submit-btn { align-self: center; }
+        }
+    </style>
+</head>
+<body>
+
+<section class="contact-section">
+    <div class="contact-wrapper">
+        <div class="contact-info">
+            <h2>Let's <span style="color:var(--neon-pink)">Connect</span></h2>
+            <p>I'm always open to discussing AI/ML projects or Full Stack opportunities. Feel free to reach out!</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/ritikmahawar" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/ritikmahawar" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fas fa-code"></i></a>
+                <a href="mailto:mahawarritik3@gmail.com" class="social-icon"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <form id="my-form" action="https://formspree.io/f/meepjjkw" method="POST" class="contact-form">
+            <div class="input-group">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+            
+            <button id="my-form-button" type="submit" class="submit-btn">
+                <span id="btn-text">Send Message ↗</span>
+            </button>
+            
+            <p id="my-form-status"></p>
+        </form>
+    </div>
+</section>
+
+<script>
+    const form = document.getElementById("my-form");
+    const button = document.getElementById("my-form-button");
+    const btnText = document.getElementById("btn-text");
+    const status = document.getElementById("my-form-status");
+
+    async function handleSubmit(event) {
+      event.preventDefault();
+      
+      // UI: Start Loading State
+      button.disabled = true;
+      btnText.innerHTML = '<div class="loader"></div> Sending...';
+      status.innerHTML = "";
+      status.className = "";
+
+      const data = new FormData(event.target);
+      
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+          // UI: Success State
+          status.className = "status-success";
+          status.innerHTML = '<i class="fas fa-check-circle"></i> Sent Successfully! Refreshing...';
+          form.reset();
+          
+          // REFRESH PAGE after 2 seconds
+          setTimeout(() => {
+            window.location.reload();
+          }, 2000);
+
+        } else {
+          // UI: Error State
+          button.disabled = false;
+          btnText.innerHTML = 'Send Message ↗';
+          status.className = "status-error";
+          status.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Oops! Something went wrong.';
+        }
+      }).catch(error => {
+        button.disabled = false;
+        btnText.innerHTML = 'Send Message ↗';
+        status.className = "status-error";
+        status.innerHTML = '<i class="fas fa-wifi"></i> Connection error. Please try again.';
+      });
+    }
+    
+    form.addEventListener("submit", handleSubmit);
+</script>
+
+</body>
+</html>
