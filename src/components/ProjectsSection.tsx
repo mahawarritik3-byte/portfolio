@@ -7,12 +7,16 @@ const projects = [
     title: "Newsletter System",
     description: "Developed a full-stack newsletter platform with email verification. Users can register and receive updates.",
     tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    github: "https://github.com/mahawarritik3-byte/newsletter_system",
+    demo: "https://newslettergo.ct.ws"
   },
   {
     icon: MessageCircle,
     title: "Chatting Application",
     description: "Built a real-time chat application. Implemented user communication system with backend support.",
     tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    github: "https://github.com/your-username/chat-app-repo", // Replace with actual link
+    demo: "https://your-chat-app-demo.com" // Replace with actual link
   },
 ];
 
@@ -47,6 +51,7 @@ const ProjectsSection = () => {
               </div>
               <h3 className="text-lg font-bold font-mono text-foreground mb-2">{project.title}</h3>
               <p className="text-muted-foreground font-mono text-sm mb-4 leading-relaxed">{project.description}</p>
+              
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((t) => (
                   <span key={t} className="text-xs font-mono px-2 py-1 rounded-md bg-muted text-accent border border-border">
@@ -54,11 +59,24 @@ const ProjectsSection = () => {
                   </span>
                 ))}
               </div>
+
               <div className="flex gap-3">
-                <a href="https://github.com/mahawarritik3-byte/newsletter_system" className="text-muted-foreground hover:text-primary transition-colors">
+                {/* Dynamically call the github link from the array */}
+                <a 
+                  href={project.github} 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
                   <Github size={18} />
                 </a>
-                <a href="https://newslettergo.ct.ws"className="text-muted-foreground hover:text-accent transition-colors">
+                {/* Dynamically call the demo link from the array */}
+                <a 
+                  href={project.demo} 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  className="text-muted-foreground hover:text-accent transition-colors"
+                >
                   <ExternalLink size={18} />
                 </a>
               </div>
