@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Mail, MessageCircle } from "lucide-react";
-
+import { ExternalLink, Github, Mail, MessageCircle, Gamepad2, Joystick, Trophy, Play } from "lucide-react";
 const projects = [
   {
     icon: Mail,
@@ -18,7 +17,15 @@ const projects = [
     github: "https://github.com/your-username/chat-app-repo", // Replace with actual link
     demo: "https://your-chat-app-demo.com" // Replace with actual link
   },
-];
+   {
+    icon: Gamepad2,
+    title: "Game Application",
+    description: "Game Zone is a fun arcade-style web app where you can play multiple mini-games like Tic-Tac-Toe, Snake, Memory, Flappy Bird, and Car Dodge—all in one place.",
+    tech: ["⚛️ React", "🟦 TypeScript", "🎨 Tailwind CSS", "🔄 React Router", "⚡ React Query", "🎯 Lucide React (icons)"],
+    github: "https://github.com/mahawarritik3-byte/GAME_ZONE", // Replace with actual link
+    demo: "https://gamezone-jade.vercel.app/" // Replace with actual link
+  },
+  ];
 
 const ProjectsSection = () => {
   return (
