@@ -16,6 +16,13 @@ const education = [
     detail: "Scored: 81.40%",
     current: false,
   },
+   {
+    degree: "Class 10th (Secondary)",
+    institution: "Kota, Rajasthan",
+    period: "2022",
+    detail: "Scored: 73.40%",
+    current: false,
+  },
 ];
 
 const EducationSection = () => {
