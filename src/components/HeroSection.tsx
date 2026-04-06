@@ -118,7 +118,7 @@ const HeroSection = () => {
                   
                   {/* ✅ YOUR IMAGE ADDED HERE */}
                   <img 
-                          src="https://drive.google.com/uc?export=view&id=1igNscFH71WaDJO38mR0WMvGI83QLwJhw"
+                          src="/ritik_image.webp"
                           alt="Ritik Mahawar"
                           className="w-full h-full object-cover rounded-full"
                   />
