@@ -159,6 +159,15 @@ const ContactSection = () => {
         </motion.div>
       </div>
     </section>
+    <footer class="footer">
+  <p>© 2026 Ritik Mahawar. All Rights Reserved.</p>
+  
+  <div class="socials">
+    <a href="#">LinkedIn</a>
+    <a href="#">GitHub</a>
+    <a href="#">Instagram</a>
+  </div>
+</footer>
   );
 };
 
