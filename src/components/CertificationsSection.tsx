@@ -18,6 +18,14 @@ const certifications = [
     image: "/py.png", 
     link: "https://drive.google.com/file/d/12Pgr1TZqQqJYGTniUJiJi9C__98MxqRi/view?usp=sharing", // Update with actual Coursera link if you have it
   },
+  {
+    title: "Fundamentals of cyber security",
+    issuer: "Infosys Spring Boards",
+    date: "2025",
+    // Matches the "py.png" file seen in your public folder screenshot
+    image: "/cyber.png", 
+    link: "https://drive.google.com/file/d/1vczZkHpvX2AtkvywwNkQ590Qbq5hWcW9/view?usp=sharing", // Update with actual Coursera link if you have it
+  },
 ];
 
 const CertificationsSection = () => {
