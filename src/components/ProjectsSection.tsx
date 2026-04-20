@@ -25,21 +25,21 @@ const projects = [
     github: "https://github.com/mahawarritik3-byte/GAME_ZONE", // Replace with actual link
     demo: "https://gamezone-jade.vercel.app/" // Replace with actual link
   },
-  {
-  icon: Brain, // or BookOpen / Cpu / Trophy (from lucide-react)
-  title: "QuizSphere",
-  description: "QuizSphere is a modern quiz web application where users can test their knowledge across Math, Coding, and General Knowledge with timed tests, difficulty levels, and performance tracking.",
-  tech: [
-    "⚛️ React",
-    "🟦 TypeScript",
-    "🎨 Tailwind CSS",
-    "⚡ Vite",
-    "🔄 React Router",
-    "💾 LocalStorage"
-  ],
-  github: "https://github.com/mahawarritik3-byte/QuizSphere",
-  demo: "https://quizsphere-five.vercel.app/"
-},
+  // {
+  // icon: Brain, // or BookOpen / Cpu / Trophy (from lucide-react)
+  // title: "QuizSphere",
+  // description: "QuizSphere is a modern quiz web application where users can test their knowledge across Math, Coding, and General Knowledge with timed tests, difficulty levels, and performance tracking.",
+  // tech: [
+  //   "⚛️ React",
+  //   "🟦 TypeScript",
+  //   "🎨 Tailwind CSS",
+  //   "⚡ Vite",
+  //   "🔄 React Router",
+  //   "💾 LocalStorage"
+  // ],
+//   github: "https://github.com/mahawarritik3-byte/QuizSphere",
+//   demo: "https://quizsphere-five.vercel.app/"
+// },
   ];
 
 const ProjectsSection = () => {
