@@ -52,7 +52,7 @@ I’m a full-stack developer passionate about building scalable web applications
 
 ## 🔗 Live Demo
 
-👉 [View Portfolio](https://ritikportfolio-beta.vercel.app/) *(Add your deployed link here)*
+👉 [View Portfolio](https://ritikportfolio-beta.vercel.app/)
 
 ---
 
@@ -110,7 +110,7 @@ PORT=5000
 
 ## 📬 Contact Me
 
-* 📧 Email: [your-email@example.com](mailto:mahawarritik3@gmail.com)
+* 📧 Email: [mahawarritik3@gmail.com](mailto:mahawarritik3@gmail.com)
 * 💼 LinkedIn: https://www.linkedin.com/in/ritik-mahawar-b313a6282/
 * 🐙 GitHub: https://github.com/mahawarritik3-byte
 
