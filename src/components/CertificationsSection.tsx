@@ -26,6 +26,22 @@ const certifications = [
     image: "/cyber.png", 
     link: "https://drive.google.com/file/d/1vczZkHpvX2AtkvywwNkQ590Qbq5hWcW9/view?usp=sharing", // Update with actual Coursera link if you have it
   },
+  {
+    title: "Fundamentals of web development",
+    issuer: "Infosys Spring Boards",
+    date: "2024",
+    // Matches the "py.png" file seen in your public folder screenshot
+    image: "/webdev.png", 
+    link: "https://drive.google.com/file/d/1vr2hmsH8yM148JrL4Muu4S_NXQmOd1k7/view?usp=sharing", // Update with actual Coursera link if you have it
+  },
+  {
+    title: "SIH 2025",
+    issuer: "Infosys Spring Boards",
+    date: "2025",
+    // Matches the "py.png" file seen in your public folder screenshot
+    image: "/SIH2025.png", 
+    link: "https://drive.google.com/file/d/16Q6TZ2KCs-Kr_e8fBOcbYkRpB8R8IUNC/view?usp=sharing", // Update with actual Coursera link if you have it
+  },
 ];
 
 const CertificationsSection = () => {
