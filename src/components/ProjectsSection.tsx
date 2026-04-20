@@ -39,7 +39,7 @@ const projects = [
   ],
   github: "https://github.com/mahawarritik3-byte/QuizSphere",
   demo: "https://quizsphere-five.vercel.app/"
-}
+},
   ];
 
 const ProjectsSection = () => {
