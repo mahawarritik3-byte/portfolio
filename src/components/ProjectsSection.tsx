@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Brain } from "lucide-react";
 import { ExternalLink, Github, Mail, MessageCircle, Gamepad2, Joystick, Trophy, Play } from "lucide-react";
 const projects = [
   {
