@@ -74,7 +74,6 @@ const ContactSection = () => {
             </div>
           </div>
         </motion.div>
-        <span>hello ritik</span>
         {/* Right: Form with Success Overlay */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
