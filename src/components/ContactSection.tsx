@@ -155,6 +155,9 @@ const ContactSection = () => {
               </motion.div>
             )}
           </form>
+          <p className="text-center text-gray-500 text-sm mt-6 font-mono">
+  Designed & Developed by <span className="text-[#ff40b4]">Ritik Mahawar</span>
+</p>
         </motion.div>
       </div>
     </section>
