@@ -72,6 +72,7 @@ const ContactSection = () => {
               <MapPin className="text-[#ff40b4]" size={20} />
               <span>Jaipur, Rajasthan</span>
             </div>
+            <span>hello ritik</span>
           </div>
         </motion.div>
 
