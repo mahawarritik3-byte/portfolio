@@ -15,7 +15,7 @@ const socialLinks = [
   },
   { 
     icon: Code, 
-    href: "#", 
+    href: "https://leetcode.com/u/ritikmahawar011/", 
     label: "LeetCode" 
   },
   { 
