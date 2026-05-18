@@ -42,6 +42,22 @@ const certifications = [
     image: "/SIH2025.png", 
     link: "https://drive.google.com/file/d/16Q6TZ2KCs-Kr_e8fBOcbYkRpB8R8IUNC/view?usp=sharing", // Update with actual Coursera link if you have it
   },
+  {
+    title: "Course completion certificate - NPTEL Problem Solving Through Programming In C",
+    issuer: "NPTEL - 2026",
+    date: "2026",
+    // Matches the "py.png" file seen in your public folder screenshot
+    image: "/nptelc.png", 
+    link: "https://drive.google.com/file/d/1Y4Pha5zAJhtxBfcHO-67aO-aqWr28o1R/view?usp=sharing", // Update with actual Coursera link if you have it
+  },
+  {
+    title: "Course completion certificate - NPTEL Programming in Modern C++",
+    issuer: "NPTEL - 2026",
+    date: "2026",
+    // Matches the "py.png" file seen in your public folder screenshot
+    image: "/nptelcpp.png", 
+    link: "https://drive.google.com/file/d/19XSQpfalnJkJ1ECOrsstB5MccQOyaoVF/view?usp=sharing", // Update with actual Coursera link if you have it
+  },
 ];
 
 const CertificationsSection = () => {
