@@ -36,7 +36,7 @@ const certifications = [
   },
   {
     title: "Participation Certificate - 2025",
-    issuer: "Smart India Hackathon 2025",
+    issuer: "Smart India Hackathon ",
     date: "2025",
     // Matches the "py.png" file seen in your public folder screenshot
     image: "/SIH2025.png", 
@@ -44,7 +44,7 @@ const certifications = [
   },
   {
     title: "Course completion certificate - NPTEL Problem Solving Through Programming In C",
-    issuer: "NPTEL - 2026",
+    issuer: "NPTEL - ",
     date: "2026",
     // Matches the "py.png" file seen in your public folder screenshot
     image: "/nptelc.png", 
@@ -52,7 +52,7 @@ const certifications = [
   },
   {
     title: "Course completion certificate - NPTEL Programming in Modern C++",
-    issuer: "NPTEL - 2026",
+    issuer: "NPTEL - ",
     date: "2026",
     // Matches the "py.png" file seen in your public folder screenshot
     image: "/nptelcpp.png", 
