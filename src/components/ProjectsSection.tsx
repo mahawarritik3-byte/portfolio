@@ -5,7 +5,8 @@ import {
   Github, 
   Mail, 
   MessageCircle, 
-  Gamepad2 
+  Gamepad2,
+  FileText
 } from "lucide-react";
 
 // Optional: Type safety (recommended)
