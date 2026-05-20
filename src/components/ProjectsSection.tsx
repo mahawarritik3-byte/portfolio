@@ -69,6 +69,24 @@ const projects: Project[] = [
     github: "https://github.com/mahawarritik3-byte/QuizSphere",
     demo: "https://quizsphere-five.vercel.app/",
   },
+  {
+  icon: FileText,
+  title: "AI Resume Analyzer",
+  description:
+    "An AI-powered Resume Analyzer that evaluates resumes based on Job Descriptions using ATS-style analysis. It extracts resume text, matches skills, calculates ATS score, identifies missing skills, and provides suggestions to improve the resume.",
+  tech: [
+    "⚛️ React",
+    "⚡ Vite",
+    "🐍 Python",
+    "🚀 FastAPI",
+    "🎨 CSS",
+    "✨ Framer Motion",
+    "☁️ Render",
+    "▲ Vercel",
+  ],
+  github: "https://github.com/mahawarritik3-byte/Resume_analyzer",
+  demo: "https://resume-analyzer-henna-ten.vercel.app/",
+},
 ];
 
 const ProjectsSection = () => {
