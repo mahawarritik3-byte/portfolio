@@ -58,6 +58,14 @@ const certifications = [
     image: "/nptelcpp.png", 
     link: "https://drive.google.com/file/d/19XSQpfalnJkJ1ECOrsstB5MccQOyaoVF/view?usp=sharing", // Update with actual Coursera link if you have it
   },
+  {
+    title: "Participation certificate - LMNHACKS 8.0",
+    issuer: "LNMIIT",
+    date: "2026",
+    // Matches the "py.png" file seen in your public folder screenshot
+    image: "/LMNIIT.png", 
+    link: "https://drive.google.com/file/d/1n2m9EJadZnEhjq0JcTgEGbhSH-gITNmA/view?usp=sharing", // Update with actual Coursera link if you have it
+  },
 ];
 
 const CertificationsSection = () => {
