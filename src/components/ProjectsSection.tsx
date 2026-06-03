@@ -92,7 +92,7 @@ const projects: Project[] = [
     icon: Mail,
     title: "Newswave Newsletter",
     description:
-      "Developed a full-stack newsletter platform with email verification. Users can register and receive updates.",
+      "Developed a full-stack newsletter platform with email verification. Users can register and receive updates.There is if the user wants unsubscribe us he can eaisly just by verifing his mail.",
     tech: ["⚛️ HTML", "🎨 CSS", "⚡JavaScript", "☁️ PHP", "▲ MySQL"],
     github: "https://github.com/mahawarritik3-byte/newsletter_newswave",
     demo: "https://newswave.infinityfreeapp.com/",
