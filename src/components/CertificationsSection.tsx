@@ -66,6 +66,14 @@ const certifications = [
     image: "/LMNIIT.png", 
     link: "https://drive.google.com/file/d/1n2m9EJadZnEhjq0JcTgEGbhSH-gITNmA/view?usp=sharing", // Update with actual Coursera link if you have it
   },
+  {
+    title: "Problem Solving (Basic) certificate - HACKER RANK",
+    issuer: "HACKER RANK",
+    date: "2026",
+    // Matches the "py.png" file seen in your public folder screenshot
+    image: "/basic.png", 
+    link: "https://drive.google.com/file/d/1L21CQ2c4tgrkAPS6zSMGlBha7FLdxj1O/view?usp=sharing", // Update with actual Coursera link if you have it
+  },
 ];
 
 const CertificationsSection = () => {
