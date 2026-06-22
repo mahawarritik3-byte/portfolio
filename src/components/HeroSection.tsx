@@ -65,6 +65,14 @@ const floatingSkills = [
 ];
 
 const HeroSection = () => {
+  const scrollToSection = (id) => {
+    const section = document.querySelector(id);
+
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="home"
@@ -150,7 +158,9 @@ const HeroSection = () => {
           className={`hidden lg:flex absolute ${item.className} z-10 items-center gap-2 px-4 py-2 rounded-2xl border border-cyan-300/20 bg-white/5 backdrop-blur-md shadow-[0_0_35px_rgba(34,211,238,0.12)]`}
         >
           <item.icon size={16} className="text-cyan-300" />
-          <span className="font-mono text-xs text-slate-200">{item.text}</span>
+          <span className="font-mono text-xs text-slate-200">
+            {item.text}
+          </span>
         </motion.div>
       ))}
 
@@ -193,7 +203,7 @@ const HeroSection = () => {
           </p>
 
           {/* Info cards */}
-          <div className="flex flex-wrap justify-center md:justify-start gap-3 mb-8">
+          <div className="flex flex-wrap justify-center md:justify-start gap-3 mb-7">
             <motion.div
               whileHover={{ y: -4, scale: 1.03 }}
               className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 backdrop-blur-md border border-cyan-300/20 shadow-sm"
@@ -215,27 +225,60 @@ const HeroSection = () => {
             </motion.div>
           </div>
 
-          {/* Buttons */}
-          <div className="flex flex-wrap justify-center md:justify-start gap-3 mb-8">
-            <a
-              href="#projects"
-              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-400 to-purple-500 text-white font-mono text-sm font-medium transition-all shadow-[0_0_28px_rgba(34,211,238,0.28)] hover:shadow-[0_0_45px_rgba(168,85,247,0.45)] hover:-translate-y-1"
-            >
-              View Projects
-              <ArrowRight
-                size={16}
-                className="group-hover:translate-x-1 transition-transform"
-              />
-            </a>
+          {/* Premium Action Buttons */}
+          <div className="relative mb-8">
+            <div className="p-4 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl shadow-[0_0_50px_rgba(34,211,238,0.12)]">
+              <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
+                {/* View Projects */}
+                <motion.button
+                  whileHover={{ scale: 1.05, y: -4 }}
+                  whileTap={{ scale: 0.96 }}
+                  onClick={() => scrollToSection("#projects")}
+                  className="relative overflow-hidden group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3 rounded-2xl bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 text-white font-mono text-sm font-semibold shadow-[0_0_35px_rgba(34,211,238,0.35)] hover:shadow-[0_0_55px_rgba(168,85,247,0.55)] transition-all"
+                >
+                  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+                  <span className="relative z-10">Explore Projects</span>
+                  <ArrowRight
+                    size={17}
+                    className="relative z-10 group-hover:translate-x-1 transition-transform"
+                  />
+                </motion.button>
 
-            <a
-              href="/ritik@resume.pdf"
-              download
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-cyan-300/20 text-slate-100 font-mono text-sm bg-white/5 hover:bg-white/10 hover:border-cyan-300/50 transition-all hover:-translate-y-1"
+                {/* Download Resume */}
+                <motion.a
+                  whileHover={{ scale: 1.05, y: -4 }}
+                  whileTap={{ scale: 0.96 }}
+                  href="/ritik@resume.pdf"
+                  download
+                  className="relative overflow-hidden group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3 rounded-2xl bg-white/10 backdrop-blur-md border border-cyan-300/30 text-cyan-100 font-mono text-sm font-semibold hover:bg-cyan-300/10 hover:border-cyan-300/60 shadow-[0_0_25px_rgba(34,211,238,0.12)] hover:shadow-[0_0_45px_rgba(34,211,238,0.35)] transition-all"
+                >
+                  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-cyan-300/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+                  <Download size={17} className="relative z-10" />
+                  <span className="relative z-10">Download Resume</span>
+                </motion.a>
+
+                {/* Contact Me */}
+                <motion.a
+                  whileHover={{ scale: 1.05, y: -4 }}
+                  whileTap={{ scale: 0.96 }}
+                  href="mailto:mahawarritik3@gmail.com"
+                  className="relative overflow-hidden group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3 rounded-2xl bg-gradient-to-r from-pink-500/20 to-purple-500/20 backdrop-blur-md border border-pink-300/30 text-pink-100 font-mono text-sm font-semibold hover:border-pink-300/60 shadow-[0_0_25px_rgba(244,114,182,0.12)] hover:shadow-[0_0_45px_rgba(244,114,182,0.35)] transition-all"
+                >
+                  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-pink-300/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+                  <Mail size={17} className="relative z-10" />
+                  <span className="relative z-10">Contact Me</span>
+                </motion.a>
+              </div>
+            </div>
+
+            <motion.p
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.9 }}
+              className="mt-4 text-center md:text-left text-xs font-mono text-slate-400"
             >
-              <Download size={16} />
-              Download Resume
-            </a>
+              Open to internships, collaborations, and project opportunities.
+            </motion.p>
           </div>
 
           {/* Social links */}
