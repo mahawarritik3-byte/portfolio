@@ -102,7 +102,7 @@ const projects: Project[] = [
     "🧩 JavaScript",
   ],
   github: "https://github.com/mahawarritik3-byte/ats_resume_builder",
-  live: "https://ats-resume-builder-mocha.vercel.app/",
+  demo: "https://ats-resume-builder-mocha.vercel.app/",
 }
 ];
 
