@@ -92,7 +92,7 @@ const projects: Project[] = [
   icon: FileText,
   title: "ATS Resume Builder",
   description:
-    "ATS Resume Builder is a modern resume-making web app that helps students create clean, professional, and ATS-friendly resumes with live preview and downloadable PDF support.",
+    "ATS Resume Builder is a modern resume-making web application that helps users create clean, professional, and ATS-friendly resumes with live preview, editable sections, grouped skills, and downloadable PDF support.",
   tech: [
     "⚛️ React",
     "🎨 Tailwind CSS",
@@ -101,9 +101,9 @@ const projects: Project[] = [
     "⚡ Vite",
     "🧩 JavaScript",
   ],
-    github: "https://github.com/mahawarritik3-byte/ats_resume_builder",
-    demo: "https://ats-resume-builder-mocha.vercel.app/",
-},
+  github: "https://github.com/mahawarritik3-byte/ats_resume_builder",
+  live: "https://ats-resume-builder-mocha.vercel.app/",
+}
 ];
 
 const ProjectsSection = () => {
