@@ -30,15 +30,6 @@ const projects: Project[] = [
     demo: "https://newslettergo.ct.ws",
   },
   {
-    icon: MessageCircle,
-    title: "Chatting Application",
-    description:
-      "Built a real-time chat application. Implemented user communication system with backend support.",
-    tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    github: "https://github.com/your-username/chat-app-repo",
-    demo: "https://your-chat-app-demo.com",
-  },
-  {
     icon: Gamepad2,
     title: "Game Application",
     description:
@@ -97,6 +88,20 @@ const projects: Project[] = [
     github: "https://github.com/mahawarritik3-byte/newsletter_newswave",
     demo: "https://newswave.infinityfreeapp.com/",
   },
+  {
+  icon: FileText,
+  title: "ATS Resume Builder",
+  description:
+    "ATS Resume Builder is a modern resume-making web app that helps students create clean, professional, and ATS-friendly resumes with live preview and downloadable PDF support.",
+  tech: [
+    "⚛️ React",
+    "🎨 Tailwind CSS",
+    "📄 HTML2PDF.js",
+    "🎯 Lucide React Icons",
+    "⚡ Vite",
+    "🧩 JavaScript",
+  ],
+}
 ];
 
 const ProjectsSection = () => {
