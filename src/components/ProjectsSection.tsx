@@ -101,7 +101,9 @@ const projects: Project[] = [
     "⚡ Vite",
     "🧩 JavaScript",
   ],
-}
+    github: "https://github.com/mahawarritik3-byte/ats_resume_builder",
+    demo: "https://ats-resume-builder-mocha.vercel.app/",
+},
 ];
 
 const ProjectsSection = () => {
