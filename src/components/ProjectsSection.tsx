@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: "Newsletter System",
     image: "/projects/newsletter.png",
     description:
-      "Developed a full-stack newsletter platform with email verification. Users can register and receive updates.",
+      "Developed a full-stack newsletter subscription platform with email verification, subscriber registration, and admin-side message broadcasting. The system allows users to subscribe securely and receive updates, while the admin can manage subscribers and send newsletters efficiently.",
     tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     github: "https://github.com/mahawarritik3-byte/newsletter_system",
     demo: "https://newslettergo.ct.ws",
@@ -87,7 +87,7 @@ const projects: Project[] = [
     title: "Newswave Newsletter",
     image: "/projects/newswave.png",
     description:
-      "Developed a full-stack newsletter platform with email verification. Users can register and receive updates. Users can also unsubscribe by verifying their email.",
+      "Built a dynamic newsletter web application with OTP-based subscribe and unsubscribe functionality. Users can verify their email before joining or leaving the newsletter, while the admin panel supports subscriber management, unique subscriber IDs, and sending updates to active users.",
     tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     github: "https://github.com/mahawarritik3-byte/newsletter_newswave",
     demo: "https://newswave.infinityfreeapp.com/",
