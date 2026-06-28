@@ -20,7 +20,7 @@ type Project = {
 
 const projects: Project[] = [
   {
-    icon: Mail,
+   // icon: Mail,
     title: "Newsletter System",
     image: "/newsletter.png",
     description: "Developed a full-stack newsletter platform with email verification, subscriber management, and admin-side message broadcasting.",
