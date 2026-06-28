@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Instagram,
   ArrowRight,
   Github,
   Linkedin,
@@ -35,6 +36,11 @@ const socialLinks = [
     href: "mailto:mahawarritik3@gmail.com",
     label: "Email",
   },
+  {
+  icon: Instagram,
+  href: "https://www.instagram.com/your_username/",
+  label: "Instagram",
+},
 ];
 
 const floatingSkills = [
