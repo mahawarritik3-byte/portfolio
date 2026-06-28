@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 type Project = {
-  //icon?: any;
+  icon?: any;
   title: string;
   description: string;
   tech: string[];
