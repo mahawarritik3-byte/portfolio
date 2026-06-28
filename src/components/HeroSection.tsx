@@ -38,7 +38,7 @@ const socialLinks = [
   },
   {
   icon: Instagram,
-  href: "https://www.instagram.com/your_username/",
+  href: "https://www.instagram.com/ritikmahawar011/",
   label: "Instagram",
 },
 ];
