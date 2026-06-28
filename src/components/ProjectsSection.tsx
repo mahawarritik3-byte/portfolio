@@ -33,8 +33,8 @@ const projects: Project[] = [
   "📧 PHPMailer",
   "☁️ InfinityFree Hosting",
 ],
-    // github: "https://github.com/mahawarritik3-byte/newsletter_system",
-    // demo: "https://newslettergo.ct.ws",
+    github: "https://github.com/mahawarritik3-byte/newsletter_system",
+    demo: "https://newslettergo.ct.ws",
   },
   {
     icon: Gamepad2,
@@ -50,8 +50,8 @@ const projects: Project[] = [
       "⚡ React Query",
       "🎯 Lucide React",
     ],
-    // github: "https://github.com/mahawarritik3-byte/GAME_ZONE",
-    // demo: "https://gamezone-jade.vercel.app/",
+    github: "https://github.com/mahawarritik3-byte/GAME_ZONE",
+    demo: "https://gamezone-jade.vercel.app/",
   },
   {
     icon: Brain,
@@ -67,8 +67,8 @@ const projects: Project[] = [
       "🔄 React Router",
       "💾 LocalStorage",
     ],
-    // github: "https://github.com/mahawarritik3-byte/QuizSphere",
-    // demo: "https://quizsphere-five.vercel.app/",
+    github: "https://github.com/mahawarritik3-byte/QuizSphere",
+    demo: "https://quizsphere-five.vercel.app/",
   },
   {
     icon: FileText,
@@ -86,8 +86,8 @@ const projects: Project[] = [
       "☁️ Render",
       "▲ Vercel",
     ],
-    // github: "https://github.com/mahawarritik3-byte/Resume_analyzer",
-    // demo: "https://resume-analyzer-henna-ten.vercel.app/",
+    github: "https://github.com/mahawarritik3-byte/Resume_analyzer",
+    demo: "https://resume-analyzer-henna-ten.vercel.app/",
   },
   {
     icon: Mail,
@@ -105,8 +105,8 @@ const projects: Project[] = [
   "📧 PHPMailer",
   "☁️ InfinityFree Hosting",
 ],
-    // github: "https://github.com/mahawarritik3-byte/newsletter_newswave",
-    // demo: "https://newswave.infinityfreeapp.com/",
+    github: "https://github.com/mahawarritik3-byte/newsletter_newswave",
+    demo: "https://newswave.infinityfreeapp.com/",
   },
   {
     icon: FileText,
@@ -122,8 +122,8 @@ const projects: Project[] = [
       "⚡ Vite",
       "🧩 JavaScript",
     ],
-    // github: "https://github.com/mahawarritik3-byte/ats_resume_builder",
-    // demo: "https://ats-resume-builder-mocha.vercel.app/",
+    github: "https://github.com/mahawarritik3-byte/ats_resume_builder",
+    demo: "https://ats-resume-builder-mocha.vercel.app/",
   },
 ];
 
