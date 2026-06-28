@@ -22,7 +22,7 @@ const projects: Project[] = [
   {
     icon: Mail,
     title: "Newsletter System",
-    image: "/projects/newsletter.png",
+    image: "/newsletter.png",
     description:
       "Developed a full-stack newsletter subscription platform with email verification, subscriber registration, and admin-side message broadcasting. The system allows users to subscribe securely and receive updates, while the admin can manage subscribers and send newsletters efficiently.",
     tech: [
@@ -40,7 +40,7 @@ const projects: Project[] = [
   {
     icon: Gamepad2,
     title: "Game Application",
-    image: "/projects/game-zone.png",
+    image: "/game-zone.png",
     description:
       "Game Zone is a fun arcade-style web app where you can play multiple mini-games like Tic-Tac-Toe, Snake, Memory, Flappy Bird, and Car Dodge—all in one place.",
     tech: [
@@ -57,7 +57,7 @@ const projects: Project[] = [
   {
     icon: Brain,
     title: "QuizSphere",
-    image: "/projects/quizsphere.png",
+    image: "/quizsphere.png",
     description:
       "QuizSphere is a modern quiz web application where users can test their knowledge across Math, Coding, and General Knowledge with timed tests, difficulty levels, and performance tracking.",
     tech: [
@@ -74,7 +74,7 @@ const projects: Project[] = [
   {
     icon: FileText,
     title: "AI Resume Analyzer",
-    image: "/projects/resume-analyzer.png",
+    image: "/resume-analyzer.png",
     description:
       "An AI-powered Resume Analyzer that evaluates resumes based on Job Descriptions using ATS-style analysis. It extracts resume text, matches skills, calculates ATS score, identifies missing skills, and provides suggestions to improve the resume.",
     tech: [
@@ -93,7 +93,7 @@ const projects: Project[] = [
   {
     icon: Mail,
     title: "Newswave Newsletter",
-    image: "/projects/newswave.png",
+    image: "/newswave.png",
     description:
       "Built a dynamic newsletter web application with OTP-based subscribe and unsubscribe functionality. Users can verify their email before joining or leaving the newsletter, while the admin panel supports subscriber management, unique subscriber IDs, and sending updates to active users.",
     tech: [
@@ -112,7 +112,7 @@ const projects: Project[] = [
   {
     icon: FileText,
     title: "ATS Resume Builder",
-    image: "/projects/ats-builder.png",
+    image: "/ats-builder.png",
     description:
       "ATS Resume Builder is a modern resume-making web application that helps users create clean, professional, and ATS-friendly resumes with live preview, editable sections, grouped skills, and downloadable PDF support.",
     tech: [
