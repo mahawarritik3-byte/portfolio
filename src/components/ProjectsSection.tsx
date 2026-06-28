@@ -23,8 +23,7 @@ const projects: Project[] = [
     icon: Mail,
     title: "Newsletter System",
     image: "/newsletter.png",
-    description:
-      "Developed a full-stack newsletter subscription platform with email verification, subscriber registration, and admin-side message broadcasting. The system allows users to subscribe securely and receive updates, while the admin can manage subscribers and send newsletters efficiently.",
+    description: "Developed a full-stack newsletter platform with email verification, subscriber management, and admin-side message broadcasting.",
     tech: [
   "🌐 HTML5",
   "🎨 CSS3",
@@ -34,15 +33,15 @@ const projects: Project[] = [
   "📧 PHPMailer",
   "☁️ InfinityFree Hosting",
 ],
-    github: "https://github.com/mahawarritik3-byte/newsletter_system",
-    demo: "https://newslettergo.ct.ws",
+    // github: "https://github.com/mahawarritik3-byte/newsletter_system",
+    // demo: "https://newslettergo.ct.ws",
   },
   {
     icon: Gamepad2,
     title: "Game Application",
     image: "/game-zone.png",
     description:
-      "Game Zone is a fun arcade-style web app where you can play multiple mini-games like Tic-Tac-Toe, Snake, Memory, Flappy Bird, and Car Dodge—all in one place.",
+      "Built an arcade-style web app with multiple mini-games like Tic-Tac-Toe, Snake, Memory, Flappy Bird, and Car Dodge.",
     tech: [
       "⚛️ React",
       "🟦 TypeScript",
@@ -51,15 +50,15 @@ const projects: Project[] = [
       "⚡ React Query",
       "🎯 Lucide React",
     ],
-    github: "https://github.com/mahawarritik3-byte/GAME_ZONE",
-    demo: "https://gamezone-jade.vercel.app/",
+    // github: "https://github.com/mahawarritik3-byte/GAME_ZONE",
+    // demo: "https://gamezone-jade.vercel.app/",
   },
   {
     icon: Brain,
     title: "QuizSphere",
     image: "/quizsphere.png",
     description:
-      "QuizSphere is a modern quiz web application where users can test their knowledge across Math, Coding, and General Knowledge with timed tests, difficulty levels, and performance tracking.",
+      "Built a modern quiz web app with timed tests, difficulty levels, and performance tracking across Math, Coding, and GK.",
     tech: [
       "⚛️ React",
       "🟦 TypeScript",
@@ -68,15 +67,15 @@ const projects: Project[] = [
       "🔄 React Router",
       "💾 LocalStorage",
     ],
-    github: "https://github.com/mahawarritik3-byte/QuizSphere",
-    demo: "https://quizsphere-five.vercel.app/",
+    // github: "https://github.com/mahawarritik3-byte/QuizSphere",
+    // demo: "https://quizsphere-five.vercel.app/",
   },
   {
     icon: FileText,
     title: "AI Resume Analyzer",
     image: "/resume-analyzer.png",
     description:
-      "An AI-powered Resume Analyzer that evaluates resumes based on Job Descriptions using ATS-style analysis. It extracts resume text, matches skills, calculates ATS score, identifies missing skills, and provides suggestions to improve the resume.",
+      "Built an AI-powered resume analyzer that matches resumes with job descriptions, calculates ATS score, detects missing skills, and gives improvement suggestions.",
     tech: [
       "⚛️ React",
       "⚡ Vite",
@@ -87,15 +86,15 @@ const projects: Project[] = [
       "☁️ Render",
       "▲ Vercel",
     ],
-    github: "https://github.com/mahawarritik3-byte/Resume_analyzer",
-    demo: "https://resume-analyzer-henna-ten.vercel.app/",
+    // github: "https://github.com/mahawarritik3-byte/Resume_analyzer",
+    // demo: "https://resume-analyzer-henna-ten.vercel.app/",
   },
   {
     icon: Mail,
     title: "Newswave Newsletter",
     image: "/newswave.png",
     description:
-      "Built a dynamic newsletter web application with OTP-based subscribe and unsubscribe functionality. Users can verify their email before joining or leaving the newsletter, while the admin panel supports subscriber management, unique subscriber IDs, and sending updates to active users.",
+      "Built a newsletter web app with OTP-based subscribe/unsubscribe, email verification, subscriber management, and admin message broadcasting.",
     tech: [
   "🌐 HTML5",
   "🎨 CSS3",
@@ -106,15 +105,15 @@ const projects: Project[] = [
   "📧 PHPMailer",
   "☁️ InfinityFree Hosting",
 ],
-    github: "https://github.com/mahawarritik3-byte/newsletter_newswave",
-    demo: "https://newswave.infinityfreeapp.com/",
+    // github: "https://github.com/mahawarritik3-byte/newsletter_newswave",
+    // demo: "https://newswave.infinityfreeapp.com/",
   },
   {
     icon: FileText,
     title: "ATS Resume Builder",
     image: "/ats-builder.png",
     description:
-      "ATS Resume Builder is a modern resume-making web application that helps users create clean, professional, and ATS-friendly resumes with live preview, editable sections, grouped skills, and downloadable PDF support.",
+      "Built an ATS-friendly resume builder with live preview, editable sections, grouped skills, and downloadable PDF support.",
     tech: [
       "⚛️ React",
       "🎨 Tailwind CSS",
@@ -123,8 +122,8 @@ const projects: Project[] = [
       "⚡ Vite",
       "🧩 JavaScript",
     ],
-    github: "https://github.com/mahawarritik3-byte/ats_resume_builder",
-    demo: "https://ats-resume-builder-mocha.vercel.app/",
+    // github: "https://github.com/mahawarritik3-byte/ats_resume_builder",
+    // demo: "https://ats-resume-builder-mocha.vercel.app/",
   },
 ];
 
