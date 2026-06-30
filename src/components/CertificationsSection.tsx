@@ -74,6 +74,14 @@ const certifications = [
     image: "/basic.png", 
     link: "https://drive.google.com/file/d/1L21CQ2c4tgrkAPS6zSMGlBha7FLdxj1O/view?usp=sharing", // Update with actual Coursera link if you have it
   },
+  {
+    title: "SQL (Basic) certificate - HACKER RANK",
+    issuer: "HACKER RANK",
+    date: "2026",
+    // Matches the "py.png" file seen in your public folder screenshot
+    image: "/sqlbasic.png", 
+    link: "https://drive.google.com/file/d/1HGNGuCfOppnD9E1THHfZKolE67b3m90b/view?usp=sharing", // Update with actual Coursera link if you have it
+  },
 ];
 
 const CertificationsSection = () => {
