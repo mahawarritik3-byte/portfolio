@@ -13,14 +13,14 @@ const education = [
     degree: "Class 12th (Senior Secondary)",
     institution: "Kota, Rajasthan",
     period: "2024",
-    detail: "Scored: 81.40%",
+    detail: "Scored: 81.60%",
     current: false,
   },
    {
     degree: "Class 10th (Secondary)",
     institution: "Kota, Rajasthan",
     period: "2022",
-    detail: "Scored: 73.40%",
+    detail: "Scored: 72.40%",
     current: false,
   },
 ];
