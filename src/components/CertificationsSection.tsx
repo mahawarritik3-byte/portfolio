@@ -3,6 +3,14 @@ import { ExternalLink, Award } from "lucide-react";
 
 const certifications = [
   {
+    title: "Active Listening Skills for Students",
+    issuer: "Infosys Spring Boards",
+    date: "2024",
+    // Matches the "py.png" file seen in your public folder screenshot
+    image: "/listening.png", 
+    link: "https://drive.google.com/file/d/1sGpqc0dYVHGgjSfzfb5vdeUp_3lRm2Zp/view?usp=sharing", // Update with actual Coursera link if you have it
+  },
+  {
     title: "Web Development Internship",
     issuer: "Kistechno Software Pvt. Ltd.",
     date: "2025",
