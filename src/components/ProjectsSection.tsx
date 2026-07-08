@@ -111,7 +111,7 @@ const projects: Project[] = [
   {
     icon: FileText,
     title: "ATS Resume Builder",
-    image: "/ats-builder.png",
+    image: "/publicats-builder.png",
     description:
       "Built an ATS-friendly resume builder with live preview, editable sections, grouped skills, and downloadable PDF support.",
     tech: [
