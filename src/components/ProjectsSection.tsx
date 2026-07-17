@@ -4,6 +4,7 @@ import {
   ExternalLink,
   Github,
   Mail,
+  Users,
   Gamepad2,
   FileText,
 } from "lucide-react";
