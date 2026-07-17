@@ -125,6 +125,24 @@ const projects: Project[] = [
     github: "https://github.com/mahawarritik3-byte/ats_resume_builder",
     demo: "https://ats-resume-builder-mocha.vercel.app/",
   },
+  {
+  icon: Users,
+  title: "Employee Management System",
+  image: "/ems.png",
+  description:
+    "Developed a full-stack Employee Management System with employee records, department and designation management, attendance tracking, leave management, payroll, and secure admin authentication.",
+  tech: [
+    "🌐 HTML5",
+    "🎨 CSS3",
+    "⚡ JavaScript",
+    "🐘 PHP",
+    "🗄️ MySQL",
+    "📧 PHPMailer",
+    "☁️ InfinityFree Hosting",
+  ],
+    github: "https://github.com/mahawarritik3-byte/Employee-Management-System",
+    demo: "https://emp-track.ct.ws/",
+},
 ];
 
 const ProjectsSection = () => {
