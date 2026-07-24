@@ -37,40 +37,40 @@ const projects: Project[] = [
     github: "https://github.com/mahawarritik3-byte/newsletter_system",
     demo: "https://newslettergo.ct.ws",
   },
-  {
-    icon: Gamepad2,
-    title: "Game Application",
-    image: "/game-zone.png",
-    description:
-      "Built an arcade-style web app with multiple mini-games like Tic-Tac-Toe, Snake, Memory, Flappy Bird, and Car Dodge.",
-    tech: [
-      "⚛️ React",
-      "🟦 TypeScript",
-      "🎨 Tailwind CSS",
-      "🔄 React Router",
-      "⚡ React Query",
-      "🎯 Lucide React",
-    ],
-    github: "https://github.com/mahawarritik3-byte/GAME_ZONE",
-    demo: "https://gamezone-jade.vercel.app/",
-  },
-  {
-    icon: Brain,
-    title: "QuizSphere",
-    image: "/quizsphere.png",
-    description:
-      "Built a modern quiz web app with timed tests, difficulty levels, and performance tracking across Math, Coding, and GK.",
-    tech: [
-      "⚛️ React",
-      "🟦 TypeScript",
-      "🎨 Tailwind CSS",
-      "⚡ Vite",
-      "🔄 React Router",
-      "💾 LocalStorage",
-    ],
-    github: "https://github.com/mahawarritik3-byte/QuizSphere",
-    demo: "https://quizsphere-five.vercel.app/",
-  },
+  // {
+  //   icon: Gamepad2,
+  //   title: "Game Application",
+  //   image: "/game-zone.png",
+  //   description:
+  //     "Built an arcade-style web app with multiple mini-games like Tic-Tac-Toe, Snake, Memory, Flappy Bird, and Car Dodge.",
+  //   tech: [
+  //     "⚛️ React",
+  //     "🟦 TypeScript",
+  //     "🎨 Tailwind CSS",
+  //     "🔄 React Router",
+  //     "⚡ React Query",
+  //     "🎯 Lucide React",
+  //   ],
+  //   github: "https://github.com/mahawarritik3-byte/GAME_ZONE",
+  //   demo: "https://gamezone-jade.vercel.app/",
+  // },
+  // {
+  //   icon: Brain,
+  //   title: "QuizSphere",
+  //   image: "/quizsphere.png",
+  //   description:
+  //     "Built a modern quiz web app with timed tests, difficulty levels, and performance tracking across Math, Coding, and GK.",
+  //   tech: [
+  //     "⚛️ React",
+  //     "🟦 TypeScript",
+  //     "🎨 Tailwind CSS",
+  //     "⚡ Vite",
+  //     "🔄 React Router",
+  //     "💾 LocalStorage",
+  //   ],
+  //   github: "https://github.com/mahawarritik3-byte/QuizSphere",
+  //   demo: "https://quizsphere-five.vercel.app/",
+  // },
   {
     icon: FileText,
     title: "AI Resume Analyzer",
@@ -143,6 +143,24 @@ const projects: Project[] = [
   ],
     github: "https://github.com/mahawarritik3-byte/Employee-Management-System",
     demo: "https://emp-track.ct.ws/",
+},
+  {
+  icon: FileText,
+  title: "Multi-Agent Research System",
+  image: "/multi-agent-system.png",
+  description:
+    "Developed an AI-powered multi-agent research system that leverages specialized AI agents to perform intelligent web research. Integrated Tavily Search and BeautifulSoup for real-time information retrieval, analysis, and concise research summaries through collaborative agent workflows.",
+  tech: [
+    "🐍 Python",
+    "🤖 OpenAI API",
+    "🦜 LangGraph",
+    "🔗 LangChain",
+    "🌐 Tavily API",
+    "🕸️ BeautifulSoup",
+    "⚡ Streamlit",
+  ],
+  github: "https://github.com/mahawarritik3-byte/multi_agent_system",
+  demo: "https://multi-agent-system-ritik.streamlit.app/",
 },
 ];
 
