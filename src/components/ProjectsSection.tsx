@@ -20,23 +20,23 @@ type Project = {
 };
 
 const projects: Project[] = [
-  {
-    icon: Mail,
-    title: "Newsletter System",
-    image: "/newsletter.png",
-    description: "Developed a full-stack newsletter platform with email verification, subscriber management, and admin-side message broadcasting.",
-    tech: [
-  "🌐 HTML5",
-  "🎨 CSS3",
-  "⚡ JavaScript",
-  "🐘 PHP",
-  "🗄️ MySQL",
-  "📧 PHPMailer",
-  "☁️ InfinityFree Hosting",
-],
-    github: "https://github.com/mahawarritik3-byte/newsletter_system",
-    demo: "https://newslettergo.ct.ws",
-  },
+//   {
+//     icon: Mail,
+//     title: "Newsletter System",
+//     image: "/newsletter.png",
+//     description: "Developed a full-stack newsletter platform with email verification, subscriber management, and admin-side message broadcasting.",
+//     tech: [
+//   "🌐 HTML5",
+//   "🎨 CSS3",
+//   "⚡ JavaScript",
+//   "🐘 PHP",
+//   "🗄️ MySQL",
+//   "📧 PHPMailer",
+//   "☁️ InfinityFree Hosting",
+// ],
+  //   github: "https://github.com/mahawarritik3-byte/newsletter_system",
+  //   demo: "https://newslettergo.ct.ws",
+  // },
   // {
   //   icon: Gamepad2,
   //   title: "Game Application",
@@ -147,7 +147,7 @@ const projects: Project[] = [
   {
   icon: FileText,
   title: "Multi-Agent Research System",
-  image: "/multi-agent-system.png",
+  image: "/multi_agent.png",
   description:
     "Developed an AI-powered multi-agent research system that leverages specialized AI agents to perform intelligent web research. Integrated Tavily Search and BeautifulSoup for real-time information retrieval, analysis, and concise research summaries through collaborative agent workflows.",
   tech: [
